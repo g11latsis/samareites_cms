@@ -1,0 +1,57 @@
+.ad-login-err {
+    font-size: 14px;
+    font-weight: bold;
+}
+html {
+    height: 100%;
+}
+.add-ra-main .container form .row .col-12 .form-input {
+    height: 4.5vh;
+    border-radius: 0px;
+}
+.add-ra-main .container form .row .col-md-12 .form-input {
+    height: 4.5vh;
+    border-radius: 0px;
+}
+.add-ra-main .container form .row .col-6 .form-input {
+    height: 4.5vh;
+    border-radius: 0px;
+}
+.add-ra-main .container form .row .col-6 .form-control {
+    height: 4.5vh;
+    border-radius: 0px;
+}
+.add-ra-main .container {
+    background-color: white;
+    padding: 74px 59px;
+    border: solid 1px #dddddd;
+}
+.add-ra-main .container form .row .col-12 button {
+    width: 115px;
+}
+table {
+    background-color: white;
+}
+.dash-cards {
+    background-color: white;
+    padding: 27px;
+}
+.con-ad-pro {
+    margin-top: 200px;
+    padding: 22px;
+    border: solid 1px #dddddd;
+}
+.con-ad-dash {
+    margin-top: 30px;
+}
+.ad-user-pro-1 {
+    border: solid 1px #d1d1d1;
+    margin-left: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ad-user-pro-1 img {
+    max-width: 273px;
+    height: 22vh;
+    margin-left: 33px;
+}

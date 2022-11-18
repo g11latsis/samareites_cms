@@ -1,0 +1,76 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+class rAdmins extends Authenticatable
+{
+    use HasFactory;
+    protected $fillable = [
+        'fname',
+        'lname',
+        'dob',
+        'doe',
+        'bloodgroup',
+        'donor',
+        'lvl',
+        'spec',
+        'attr',
+        'grade',
+        'gen',
+        'vat',
+        'doy',
+        'idno',
+        'passport',
+        'amka',
+        'memberid',
+        'status1',
+        'status2',
+        'img',
+        'address',
+        'postal',
+        'city',
+        'active',
+        'contact',
+        'tele',
+        'email',
+        'edu',
+        'school',
+        'degrees',
+        'licenses',
+        'eacspec',
+        'eacdegree',
+        'eacdesctinproof',
+        'eacdesctin',
+        'eacexamscore',
+        'onlinetrai',
+        'onlinetraicert',
+        'othertrai',
+        'othertraicert',
+        'vhrs',
+        'healthcarehrs',
+        'rescuehrs',
+        'nursinghrs',
+        'sshrs',
+        'traihrs',
+        'cyvolunteeringhrs',
+        'cyhealthhrs',
+        'cyrescuehrs',
+        'cynursinghrs',
+        'cysshrs',
+        'cytraininghrs',
+        'cyeduhrs',
+        'date',
+        'type',
+        'duration',
+        'desc',
+        'doc',
+        'spknow',
+        'password',
+        'cv',
+        'region',
+    ];
+}

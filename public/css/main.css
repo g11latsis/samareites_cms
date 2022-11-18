@@ -1,0 +1,35 @@
+.search-bar {
+    min-width: 715px;
+}
+.search-bar2 {
+    min-width: 730px;
+}
+.toggle-sidebar2 {
+    display: none;
+    cursor: pointer;
+}
+@media (min-width:993px) {
+    .toggle-sidebar {
+        display: none !important;
+    }
+}
+@media (max-width:992px) {
+    .dash-sidebar {
+        display: none !important;
+    }
+    .toggle-sidebar2 {
+        display: revert;
+    }
+}
+@media (max-width:429px) {
+    .admin-bottom-res {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:992px) {
+    .profile-sec-center {
+        text-align: center;
+    }
+}
