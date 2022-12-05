@@ -192,7 +192,7 @@
                     <h4>Ημερομηνία</h4>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4>Περιοχή</h4>
+                    <h4>Τύπος</h4>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4>Επιλογές</h4>

@@ -170,7 +170,7 @@ RA
                             </span>
                         </div>
                         <div class="col-xl-6 col-md-12 mb-3">
-                            <label for="exampleInputEmail1" class="form-label">επίθετο
+                            <label for="exampleInputEmail1" class="form-label">Επίθετο
                                 :</label>
                             <input type="text" name="lname" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" @if(isset($ra)) value="{{ $ra->lname }}" @endif value="{{ old('lname') }}">
@@ -203,7 +203,7 @@ RA
                             </span>
                         </div>
                         <div class="form-check col-xl-3 col-md-6 mb-4">
-                            <label for="exampleInputEmail1" class="form-label">Ομάδα Αίματος
+                            <label for="exampleInputEmail1" class="form-label">Εθελοντής αιμοδότης
                                 :</label> <br>
                             <input class="form-check-input mx-2" @if(isset($ra) && $ra->donor == "Ναί") checked @endif type="radio" name="donor" value="Ναί"
                                 id="flexRadioDefault1">
